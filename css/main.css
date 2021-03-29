@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+header {
+  padding: 1.5rem 1rem;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -33,6 +37,15 @@ main {
   grid-area: banner;
   align-self: end;
   color: #fff;
+  padding: 1.5rem 1rem;
+}
+
+.banner-text h2 {
+  margin-bottom: 0;
+}
+
+.banner-text p {
+  margin-bottom: 0;
 }
 
 h1{
@@ -47,4 +60,12 @@ h2 {
   font-style: italic;
   font-size: 1.5rem;
   margin: 0 0 1.5rem;
+}
+
+p {
+  margin: 0 0 1.5rem;
+}
+
+figure {
+  margin: 0;
 }
