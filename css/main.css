@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    font-family: Merriweather, serif;
+    line-height: 1.5;
   }
 
   *, *::before, *::after {
@@ -20,6 +22,7 @@ main {
   grid-template-areas:
   "banner banner banner"
   "col1 col2 col3";
+  gap: .75em;
 }
 
 .banner {
